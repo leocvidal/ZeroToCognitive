@@ -3,8 +3,9 @@ applications:
   memory: 128M
   instances: 1
   domain: mybluemix.net
-  name: Z2C
-  host: Z2C
+  name: Z2C-chapter04-leo
+  host: Z2C-chapter04-leo
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
+    - Speech to Text-leovidal
+    - Text to Speech-leo
